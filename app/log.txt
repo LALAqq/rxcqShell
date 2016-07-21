@@ -1,0 +1,48 @@
+[openamp.d] android/webkit/WebView.loadUrl(Ljava/lang/String;)V
+
+[openamp.d] android/webkit/WebView.loadUrl:(Ljava/lang/String;)V1
+
+[openamp.d] org/apache/http/client/HttpClient.execute(Lorg/apache/http/HttpHost;Lorg/apache/http/HttpRequest;Lorg/apache/http/client/ResponseHandler;Lorg/apache/http/protocol/HttpContext;)Ljava/lang/Object;
+
+[openamp.d] org/apache/http/client/HttpClient.execute:(Lorg/apache/http/HttpHost;Lorg/apache/http/HttpRequest;Lorg/apache/http/client/ResponseHandler;Lorg/apache/http/protocol/HttpContext;)Ljava/lang/Object;1
+
+[openamp.d] org/apache/http/client/HttpClient.execute(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;
+
+[openamp.d] org/apache/http/client/HttpClient.execute:(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;1
+
+[openamp.d] org/apache/http/client/HttpClient.execute(Lorg/apache/http/HttpHost;Lorg/apache/http/HttpRequest;Lorg/apache/http/client/ResponseHandler;)Ljava/lang/Object;
+
+[openamp.d] org/apache/http/client/HttpClient.execute:(Lorg/apache/http/HttpHost;Lorg/apache/http/HttpRequest;Lorg/apache/http/client/ResponseHandler;)Ljava/lang/Object;1
+
+[openamp.d] org/apache/http/client/HttpClient.execute(Lorg/apache/http/HttpHost;Lorg/apache/http/HttpRequest;Lorg/apache/http/protocol/HttpContext;)Lorg/apache/http/HttpResponse;
+
+[openamp.d] org/apache/http/client/HttpClient.execute:(Lorg/apache/http/HttpHost;Lorg/apache/http/HttpRequest;Lorg/apache/http/protocol/HttpContext;)Lorg/apache/http/HttpResponse;1
+
+[openamp.d] org/apache/http/client/HttpClient.execute(Lorg/apache/http/client/methods/HttpUriRequest;Lorg/apache/http/protocol/HttpContext;)Lorg/apache/http/HttpResponse;
+
+[openamp.d] org/apache/http/client/HttpClient.execute:(Lorg/apache/http/client/methods/HttpUriRequest;Lorg/apache/http/protocol/HttpContext;)Lorg/apache/http/HttpResponse;1
+
+[openamp.d] com/squareup/okhttp/OkHttpClient.newCall(Lcom/squareup/okhttp/Request;)Lcom/squareup/okhttp/Call;
+
+[openamp.d] com/squareup/okhttp/OkHttpClient.newCall:(Lcom/squareup/okhttp/Request;)Lcom/squareup/okhttp/Call;1
+
+[openamp.d] org/apache/http/client/HttpClient.execute(Lorg/apache/http/client/methods/HttpUriRequest;Lorg/apache/http/client/ResponseHandler;)Ljava/lang/Object;
+
+[openamp.d] org/apache/http/client/HttpClient.execute:(Lorg/apache/http/client/methods/HttpUriRequest;Lorg/apache/http/client/ResponseHandler;)Ljava/lang/Object;1
+
+[openamp.d] org/apache/http/client/HttpClient.execute(Lorg/apache/http/client/methods/HttpUriRequest;Lorg/apache/http/client/ResponseHandler;Lorg/apache/http/protocol/HttpContext;)Ljava/lang/Object;
+
+[openamp.d] org/apache/http/client/HttpClient.execute:(Lorg/apache/http/client/methods/HttpUriRequest;Lorg/apache/http/client/ResponseHandler;Lorg/apache/http/protocol/HttpContext;)Ljava/lang/Object;1
+
+[openamp.d] android/webkit/WebView.loadUrl(Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V
+
+[openamp.d] android/webkit/WebView.loadUrl:(Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V1
+
+[openamp.d] org/apache/http/client/HttpClient.execute(Lorg/apache/http/HttpHost;Lorg/apache/http/HttpRequest;)Lorg/apache/http/HttpResponse;
+
+[openamp.d] org/apache/http/client/HttpClient.execute:(Lorg/apache/http/HttpHost;Lorg/apache/http/HttpRequest;)Lorg/apache/http/HttpResponse;1
+
+[openamp.d] transforming java/lang/ProcessBuilder
+[openamp.d] transforming java/lang/ProcessBuilder
+[openamp.d] transforming java/lang/ProcessBuilder
+[openamp.d] transforming com/android/dx/command/dexer/Main
