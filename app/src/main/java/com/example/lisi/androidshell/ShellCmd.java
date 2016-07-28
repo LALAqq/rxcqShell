@@ -165,7 +165,7 @@ public class ShellCmd {
     }
 
     public static String checkIn(int c) {
-        return "input tap 650 510;\nsleep 1;\n input tap 650 480; sleep 0.5;\n" + CSER.get(c - 1) + "input tap 730 600;\n sleep 2;\ninput tap 730 600;\n";
+        return "input tap 645 460;\nsleep 1;\n input tap 650 380; sleep 0.5;\n" + CSER.get(c - 1) + "input tap 730 600;\n sleep 2;\ninput tap 730 560;\n";
     }
 
     public static String selectHeroInGame() {

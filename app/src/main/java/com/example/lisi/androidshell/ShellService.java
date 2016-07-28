@@ -1,5 +1,6 @@
 package com.example.lisi.androidshell;
 
+import android.annotation.TargetApi;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -663,23 +664,19 @@ public class ShellService extends Service {
         });
         
     }
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Log.i("====","========" + startId);
-        NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-        Notification.Builder builder = new Notification.Builder(ShellService.this);
-        PendingIntent contentIndent = PendingIntent.getActivity(ShellService.this, 0, new Intent(ShellService.this,MainActivity.class),PendingIntent.FLAG_UPDATE_CURRENT);
-        builder.setContentIntent(contentIndent).setTicker("脚本运行中") //设置状态栏的显示的信息
-                .setWhen(System.currentTimeMillis())//设置时间发生时间
-                .setAutoCancel(true)//设置可以清除
-                .setContentTitle("脚本")//设置下拉列表里的标题
-                .setContentText("运行中");//设置上下文内容
-        Notification notification = builder.getNotification();
-        Log.i("====","========");
-        if(notification != null) {
-            startForeground(1, notification);
-        }else{
-            Toast.makeText(ShellService.this, "无法将服务起在前台", Toast.LENGTH_LONG).show();
-        }
+        PendingIntent contentIntent = PendingIntent.getActivity(this, 0,
+                new Intent(this, MainActivity.class), 0);
+        Notification notification = new Notification.Builder(this)
+                .setSmallIcon(R.drawable.news_gift)  // the status icon
+                .setTicker("")  // the status text
+                .setWhen(System.currentTimeMillis())  // the time stamp
+                .setContentTitle("脚本正在运行")  // the label of the entry
+                .setContentText("永不crash")  // the contents of the entry
+                .setContentIntent(contentIntent)  // The intent to send when the entry is clicked
+                .build();
+        startForeground(1234, notification);
         if(intent != null) {
             mIntent = intent;
         }
